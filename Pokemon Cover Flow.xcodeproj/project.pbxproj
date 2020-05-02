@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6444AE94245E15900048B3BD /* CatchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6444AE93245E15900048B3BD /* CatchGestureRecognizer.swift */; };
 		64AC2B0A245DD5E4008D44A5 /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AC2B09245DD5E4008D44A5 /* PokemonCell.swift */; };
 		64AC2B0D245DD7D6008D44A5 /* PokemonFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AC2B0C245DD7D6008D44A5 /* PokemonFlowLayout.swift */; };
 		779F49B92457855400FAA263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779F49B82457855400FAA263 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6444AE93245E15900048B3BD /* CatchGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchGestureRecognizer.swift; sourceTree = "<group>"; };
 		64AC2B09245DD5E4008D44A5 /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
 		64AC2B0C245DD7D6008D44A5 /* PokemonFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonFlowLayout.swift; sourceTree = "<group>"; };
 		779F49B52457855400FAA263 /* Pokemon Cover Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Cover Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6444AE92245E15810048B3BD /* GestureRecognizers */ = {
+			isa = PBXGroup;
+			children = (
+				6444AE93245E15900048B3BD /* CatchGestureRecognizer.swift */,
+			);
+			path = GestureRecognizers;
+			sourceTree = "<group>";
+		};
 		64AC2B07245DD5C6008D44A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +96,7 @@
 		779F49B72457855400FAA263 /* Pokemon Cover Flow */ = {
 			isa = PBXGroup;
 			children = (
+				6444AE92245E15810048B3BD /* GestureRecognizers */,
 				64AC2B0B245DD7A0008D44A5 /* Layouts */,
 				64AC2B07245DD5C6008D44A5 /* Views */,
 				77F292202457863B001DD283 /* Misc */,
@@ -187,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77F292282457863B001DD283 /* Pokemon.swift in Sources */,
+				6444AE94245E15900048B3BD /* CatchGestureRecognizer.swift in Sources */,
 				77F292262457863B001DD283 /* UIColor+Extension.swift in Sources */,
 				77F292292457863B001DD283 /* PokemonLoader.swift in Sources */,
 				64AC2B0D245DD7D6008D44A5 /* PokemonFlowLayout.swift in Sources */,
